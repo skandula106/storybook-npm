@@ -14,8 +14,6 @@ jobs:
         run: npm install 
       - name: Build app
         run: npm run build 
-      - name: Semantic release
         env:
           GITHUB_TOKEN: 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
           NPM_TOKEN: 43a2fe22-c046-4364-bab3-b472b1c7b6ee
-        run: npm run build
